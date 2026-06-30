@@ -14994,7 +14994,7 @@ function Ca(e) {
     const Le = `${Na.wrapper} ${R ? Na.erasingWrapper : ""}`;
     let Pe, Ae, Ie, $e, De, Fe, Oe, Be;
     return t[51] === Symbol.for("react.memo_cache_sentinel") ? (Pe = s.jsx("img", {
-        src: "/icons/IconAtziri.webp",
+        src: "./icons/IconAtziri.webp",
         alt: "Atziri",
         className: Na.atziriIcon
     }), t[51] = Pe) : Pe = t[51], t[52] !== n[0]?.[4]?.room ? (Ae = "empty" !== n[0]?.[4]?.room && s.jsx("span", {
@@ -15086,11 +15086,11 @@ function Ca(e) {
                     className: Na.tier,
                     children: _
                 }), e.hasMedallion && s.jsx("img", {
-                    src: "/icons/MedallionLevelUpRoom.webp",
+                    src: "./icons/MedallionLevelUpRoom.webp",
                     alt: "Medallion",
                     className: Na.medallion
                 }), e.isLocked && "path" !== e.room && s.jsx("img", {
-                    src: "/icons/MedallionPreventDeletionOfRoom.webp",
+                    src: "./icons/MedallionPreventDeletionOfRoom.webp",
                     alt: "Lock",
                     className: Na.lockIcon
                 })]
@@ -15160,7 +15160,7 @@ const Pa = {
         icon: "_icon_1q97v_50",
         placeholder: "_placeholder_1q97v_56"
     },
-    Aa = "/icons/MedallionLevelUpRoom.webp",
+    Aa = "./icons/MedallionLevelUpRoom.webp",
     Ia = ["reward_room", "architect", "path"];
 
 function $a(e) {
@@ -15267,7 +15267,7 @@ function $a(e) {
         onClick: () => r("sacrifice" === n ? null : "sacrifice"),
         title: "Sacrifice: Remove a dead-end room or path to upgrade Altar of Sacrifice (once per altar)",
         children: s.jsx("img", {
-            src: "/icons/IconSacrificeRoom.webp",
+            src: "./icons/IconSacrificeRoom.webp",
             alt: "Sacrifice",
             className: Pa.icon
         })
@@ -15275,7 +15275,7 @@ function $a(e) {
     const E = `${Pa.roomBtn} ${"lock" === n ? Pa.selected : ""}`;
     let T, R, z;
     t[34] !== r || t[35] !== n ? (T = () => r("lock" === n ? null : "lock"), t[34] = r, t[35] = n, t[36] = T) : T = t[36], t[37] === Symbol.for("react.memo_cache_sentinel") ? (R = s.jsx("img", {
-        src: "/icons/MedallionPreventDeletionOfRoom.webp",
+        src: "./icons/MedallionPreventDeletionOfRoom.webp",
         alt: "Lock",
         className: Pa.icon
     }), t[37] = R) : R = t[37], t[38] !== E || t[39] !== T ? (z = s.jsx("button", {
