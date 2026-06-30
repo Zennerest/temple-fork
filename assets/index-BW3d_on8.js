@@ -12691,7 +12691,7 @@ async function Sn(e) {
             const t = pn(e),
                 n = window.location.origin + "/",
                 r = window.location.hash;
-            return r && r.startsWith("#/") ? `${n}#/atziri-temple?t=${t}` : `${n}?t=${t}`
+            return r && r.startsWith("#/") ? `${n}/temple-fork#/atziri-temple?t=${t}` : `${n}/temple-fork?t=${t}`
         }(e);
         return await navigator.clipboard.writeText(t), !0
     } catch (t) {
